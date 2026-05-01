@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: dds.gestores.GestorBedelTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in dds.gestores.GestorBedelTest
+dds.gestores.GestorBedelTest.testEliminacionLogica -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "dds.gestores.GestorBedel.eliminacionLogica(int)" because "instance" is null
+	at dds.gestores.GestorBedelTest.testEliminacionLogica(GestorBedelTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+dds.gestores.GestorBedelTest.testRegistro -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "dds.gestores.GestorBedel.registro(dds.dtos.BedelDTO)" because "instance" is null
+	at dds.gestores.GestorBedelTest.testRegistro(GestorBedelTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+dds.gestores.GestorBedelTest.testBuscarBedel -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "dds.gestores.GestorBedel.buscarBedel(int)" because "instance" is null
+	at dds.gestores.GestorBedelTest.testBuscarBedel(GestorBedelTest.java:107)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+dds.gestores.GestorBedelTest.testGetInstance -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <dds.gestores.GestorBedel@40a4337a>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dds.gestores.GestorBedelTest.testGetInstance(GestorBedelTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

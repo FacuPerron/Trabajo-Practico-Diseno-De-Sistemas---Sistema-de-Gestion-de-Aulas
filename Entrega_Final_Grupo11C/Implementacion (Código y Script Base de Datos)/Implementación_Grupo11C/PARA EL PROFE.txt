@@ -1,0 +1,7 @@
+Admin ya creado para iniciar sesión como administrador:
+usuario: admin1
+contraseña: ABcdef12+-
+
+Bedel ya creado para iniciar sesión como bedel:
+usuario: bedelActivo1
+contraseña: ABcdef12+-
